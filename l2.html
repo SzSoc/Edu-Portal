@@ -11,12 +11,15 @@
     />
 
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="menu.js"></script>
   </head>
 
   <body>
     <div id="wrapper">
       <header><img src="images/ubty2.jpg" alt="obróbka ręczna" /></header>
       <div class="nav-helper"></div>
+    <div class="nav-menu" style="display: none;" onclick="menuToggle()">&#9776;</div>
       <nav>
         <a class="menu" href="index.html"> Rodzaje obróbki</a>
         <a class="menu active" href="l2.html"> Obróbka ubytkowa</a>
@@ -69,7 +72,7 @@
             Obrókę tą dzielimy na obrókę ścierną narzędziami ściernym oraz
             luźnym narzędziem ścierniewem.
           </dt>
-          <hr />
+          
           <h2 class="head2">Obróbka erozyjna</h2>
           <dt>
             Polega na usunięciu wyznaczonej ilości materiału przy użyciu procesu
@@ -130,7 +133,7 @@
             powierzchni półwyrobu określonych linii, za pomocą których wycinany
             jest określony przedmiot.
           </dt>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/BT3TUPQ681Y"
@@ -138,7 +141,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
           <dd>Cięcie</dd>
           <dt>
             Jest operacją mającą na celu rozdzielenie materiału. Obróbkę
@@ -156,7 +159,7 @@
             te jest wykonywana przy użyciu czterech rodzajów nożyc: dźwigowych,
             gilotynowych, ręcznych i krążkowych.
           </dt>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/7tMJdV674iQ"
@@ -164,7 +167,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
           <dd>Piłowanie metali</dd>
           <dt>
             obróbkę wykonuje się przy użyciu palnika i polega na usunięciu
@@ -180,7 +183,7 @@
             </li>
             <li>Usunięcia nadmiaru materiału</li>
           </ul>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/AGeQOX8kFfs"
@@ -188,7 +191,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
           <dd>Wiercenie</dd>
           <dt>
             Jest to wykonywanie otworów w materiale przy wiertła, które jest
@@ -196,7 +199,7 @@
             obrotowym i posuwowym w czasie, gdy obrabiany przedmiot jest
             unieruchomiony. Najczęściej stosowanym wiertłem jest wiertło kręte.
           </dt>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/-SZjIVcQ_sk"
@@ -204,7 +207,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
           <dd>Gwintowanie</dd>
           <dt>
             – najprościej mówiąc jest to kształtowanie gwintów w taki, aby można
@@ -234,7 +237,7 @@
               idealnie dopasowane oba elementy dadzą nam mocny gwint.
             </li>
           </ul>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/6UMwBMjpzxw"
@@ -242,7 +245,7 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
           <dd>Skrobanie</dd>
           <dt>
             obtóbka polegająca na usunięciu nierówności oraz śladów
@@ -258,7 +261,7 @@
             przez plamę sprawdza się ponownie jej równość i cały proces powtarza
             się do momentu uzyskania pożądanej gładkości powierzchni.
           </dt>
-          <iframe
+          <div class="iframe-content"><iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/P5_a04uDYmQ"
@@ -266,9 +269,15 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe></div>
         </div>
       </section>
     </div>
+      <footer>
+      <div class="footer__content">
+        <div class="footer__content-left">© 2022 Szymon Socha</div>
+        <div class="footer__content-right"><a href="https://www.metal.agh.edu.pl/">AGH WIMiIP</a></div>
+      </div>
+    </footer>
   </body>
 </html>
