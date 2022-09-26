@@ -39,7 +39,9 @@ let questions = [
     answer: "Obróbki skrawaniem",
     options: [
       "Obróbki skrawaniem",
-      "Obróbki erozyjnej, Obróbki elektorerozyjnej, Obróbki chemicznej",
+      "Obróbki erozyjnej",
+      "Obróbki elektorerozyjnej",
+      "Obróbki chemicznej",
     ],
   },
   {
