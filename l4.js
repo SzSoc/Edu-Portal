@@ -47,7 +47,7 @@ let questions = [
     question:
       "Która z obróbek odbywa się przy użyciu narzędzi zwanych ściernicami?",
     answer: "Narzędziami ściernymi",
-    options: ["Luźnym ścierwniem", "Narzędziami ściernymi"],
+    options: ["Luźnym ścierwniem", "Narzędziami ściernymi", "piłą", "dłutem"],
   },
   {
     numb: 7,
