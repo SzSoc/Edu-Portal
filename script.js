@@ -50,12 +50,12 @@ restart_quiz.onclick = () => {
   clearInterval(counter);
   clearInterval(counterLine);
   startTimer(timeValue);
-  timeText.textContent = "Time Left";
+  timeText.textContent = "Pozostało";
   next_btn.classList.remove("show");
 };
 
 quit_quiz.onclick = () => {
-  window.location.reload();
+  window.location.href = "./quiz.html";
 };
 
 const next_btn = document.querySelector("footer .next_btn");
@@ -70,7 +70,7 @@ next_btn.onclick = () => {
     clearInterval(counter);
     startTimer(timeValue);
     startTimerLine(widthValue);
-    timeText.textContent = "Time Left";
+    timeText.textContent = "Pozostało";
     next_btn.classList.remove("show");
   } else {
     clearInterval(counter);
