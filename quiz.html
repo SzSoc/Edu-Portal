@@ -12,19 +12,22 @@
     />
 
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="menu.js"></script>
   </head>
 
   <body>
     <div id="wrapper">
     <header><img src="images/Rodzaje L1.jpg" alt="Rodzaje materiałów i obróbki - header" /></header>
     <div class="nav-helper"></div>
+    <div class="nav-menu" style="display: none;" onclick="menuToggle()">&#9776;</div>
     <nav>
       <a class="menu " href="index.html"> Rodzaje obróbki</a>
       <a class="menu " href="l2.html"> Obróbka ubytkowa</a>
       <a class="menu " href="l4.html"> Skrawanie podstawowe informacje</a>
       <a class="menu " href="l3.html"> Obróbka skrawaniem</a>
       <a class="menu"  href="l5.html">Maszyny do obróbki Skrawaniem</a>
-      <a class="menu active" href="Quiz.html"> Quiz</a>
+      <a class="menu active" href="quiz.html"> Quiz</a>
     </nav>
 <div class="center">
   <div class="quizbtns"> <a href="quiz1.html" class="button">Quiz do lekcji 1</a></div>
@@ -32,5 +35,11 @@
     <div class="quizbtns"><a href="quiz3.html" class="button">Quiz do lekcji 3</a></div>
     <div class="quizbtns"><a href="quiz4.html" class="button">Quiz do lekcji 4</a></div>
 </div>
+      <footer>
+      <div class="footer__content">
+        <div class="footer__content-left">© 2022 Szymon Socha</div>
+        <div class="footer__content-right"><a href="https://www.metal.agh.edu.pl/">AGH WIMiIP</a></div>
+      </div>
+    </footer>
   </body>
 </html>
