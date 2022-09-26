@@ -11,12 +11,15 @@
     />
 
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="menu.js"></script>
   </head>
 
   <body>
     <div id="wrapper">
     <header><img src="images/Skr.jpg" alt="obróka ręczna - header" /></header>
     <div class="nav-helper"></div>
+    <div class="nav-menu" style="display: none;" onclick="menuToggle()">&#9776;</div>
     <nav>
       <a class="menu " href="index.html"> Rodzaje obróbki</a>
       <a class="menu " href="l2.html"> Obróbka ubytkowa</a>
@@ -54,5 +57,11 @@
   </div>
     </section>
     
+      <footer>
+      <div class="footer__content">
+        <div class="footer__content-left">© 2022 Szymon Socha</div>
+        <div class="footer__content-right"><a href="https://www.metal.agh.edu.pl/">AGH WIMiIP</a></div>
+      </div>
+    </footer>
   </body>
 </html>
