@@ -7,7 +7,7 @@ let questions = [
       "Mechaniczną, chemiczną, cieplną, cieplno-chemiczna",
       "Maszynową, Gorącą, Fizyczną, Chemiczną",
       "Mechaniczną, temperaturową, zimną, cieplno-mechaniczną",
-      "Chemiczną, cieplną, mechaczniczną, cieplno-mechaniczną",
+      "Chemiczną, cieplną, mechaczniczną, cieplno-termiczną",
     ],
   },
   {
