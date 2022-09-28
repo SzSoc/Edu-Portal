@@ -34,7 +34,7 @@ let questions = [
   },
   {
     numb: 4,
-    question: "która umożliwia kształtowanie metali i  zmianę ich właściwości.",
+    question: "Która obróbka polega na wywarciu odpowiedniego nacisku, celem zmiany kształtu materiału?",
     answer: "Obróbka plastyczna",
     options: [
       "Obróbka Chemiczna",
